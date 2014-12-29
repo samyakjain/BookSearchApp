@@ -1,0 +1,21 @@
+//
+//  AssignmentPrefixHeader.pch
+//  Assignment
+//
+//  Created by Samyak on 12/27/14.
+//  Copyright (c) 2014 whatnowtravel. All rights reserved.
+//
+
+#ifndef Assignment_AssignmentPrefixHeader_pch
+#define Assignment_AssignmentPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+#import "HTTPClient.h"
+#import "UIViewController+Extension.h"
+#endif
+
+
+
+#endif
